@@ -1,0 +1,23 @@
+html {
+  background: #33FFF9;
+  padding: 20px;
+}
+
+header{
+  padding: 30px;
+}
+
+body {
+  padding: 30px;
+  max-width: 565px;
+  background: #fff;
+  margin: auto;
+  font-family:verdana;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+li {margin: 10px;}
+
+a { color: #0ABAFF; font-weight: 600;}
+a:visited { color: #D47F35; }

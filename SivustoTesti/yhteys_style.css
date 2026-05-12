@@ -1,0 +1,146 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/test3.jpeg");
+  margin: auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.main-container {
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(240, 240, 240, 0.884);
+  font-family: verdana;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.main-button a:hover {
+  background-color: #e4e4e4;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.form-label {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-name {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+.form-name-field {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.form-email {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.form-email-field {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.form-title {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.form-title-field {
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 400px;
+
+}
+
+.form-text {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+.form-text-field {
+  padding: 10px;
+  margin-bottom: 20px;
+  field-sizing: content;
+  overflow: visible;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.form-button {
+  color: rgb(0, 0, 0);
+  border: none;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 150px;
+  align-self: center;
+  font-size: 20px;
+}
+
+.form-button:hover {
+  background-color: rgb(238, 202, 0);
+}
+
+

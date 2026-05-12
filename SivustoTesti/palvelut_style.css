@@ -1,0 +1,154 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/test3.jpeg");
+  margin: auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.main-contaner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 150px;
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  width: fit-content;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: verdana;
+  align-self: center;
+  background: rgba(24, 41, 90, 0.637);
+}
+
+.sidebar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.side-button-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.side-button {
+  margin: 20px;
+  width: fit-content;
+  min-width: 200px;
+  font-family: verdana;
+  text-align: left;
+}
+
+.side-button a{
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.content-container {
+  max-width: 100%;
+  height: fit-content;
+  font-family: verdana;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: center;
+}
+
+.section-container {
+  background-color: rgba(240, 240, 240, 0.884);
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.main-subtitle {
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+}
+
+.main-text-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-text {
+  font-size: 17px;
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(43, 43, 43);
+  display: block;
+  text-align: center;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.main-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+
+.main-button {
+  width: fit fit-content;
+  align-self: center;
+}
+
+.main-button a {
+  color: rgb(0, 0, 0);
+  border: none;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 10px;
+  width: 150px;
+  align-self: center;
+  font-size: 20px;
+}
+
+.main-button a:hover {
+  background-color: rgb(238, 202, 0);
+}
+
+

@@ -1,0 +1,37 @@
+.footer-container {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 30px;
+  flex-shrink: 0;
+
+}
+
+.footer-list {
+  display: inline;
+  background-color: white;
+}
+
+.footer-logo {
+  font-size: 14px;
+    font-family:verdana;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.footer-item {
+  font-size: 14px;
+  width: auto;
+    font-family:verdana;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+

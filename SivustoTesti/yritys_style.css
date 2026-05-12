@@ -1,0 +1,139 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/test3.jpeg");
+  margin: auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.main-container {
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(240, 240, 240, 0.884);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  max-width: 600px;
+}
+
+.main-subtitle {
+  font-size: 22px;
+  text-decoration: none;
+  margin: 16px;
+  padding-top: 80px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  max-width: 600px;
+}
+
+.main-text {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 30px;
+  color: rgb(43, 43, 43);
+  display: block;
+  text-align: center;
+  max-width: 600px;
+}
+
+.image-container {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+.image-title {
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+}
+
+.image-subtitle {
+  font-size: 24px;
+  text-decoration: none;
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+}
+
+.image-subtitle2 {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  display: block;
+  text-align: center;
+}
+
+.main-button-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-button {
+  width: fit fit-content;
+  align-self: center;
+}
+
+.main-button a {
+  color: rgb(0, 0, 0);
+  border: none;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 150px;
+  align-self: center;
+  font-size: 20px;
+}
+
+.main-button a:hover {
+  background-color: rgb(238, 202, 0);
+}
+
+

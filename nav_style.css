@@ -1,6 +1,6 @@
 
 .nav-container {
-    background-color: #424242;
+    background-color: #2e2e2e;
 }
 
 .nav-list {
@@ -49,7 +49,7 @@
 }
 
 .nav-container a:hover {
-    background-color: #4d4d4d;
+    background-color: #363636;
 }
 
 .main-logo {

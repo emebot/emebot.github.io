@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-image: url("images/test3.jpeg");
+  background-image: url("../images/test3.jpeg");
   margin: auto;
   width: 100%;
   margin-left: 0;
@@ -41,36 +41,6 @@ body {
   background: rgba(24, 41, 90, 0.637);
 }
 
-.sidebar {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  background-color: white;
-}
-
-.side-button-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-}
-
-.side-button {
-  margin: 20px;
-  width: fit-content;
-  min-width: 200px;
-  font-family: verdana;
-  text-align: left;
-}
-
-.side-button a{
-  font-size: 16px;
-  text-decoration: none;
-  color: rgb(43, 43, 43);
-}
-
 .content-container {
   max-width: 100%;
   height: fit-content;
@@ -82,7 +52,7 @@ body {
   float: center;
 }
 
-.section-container {
+.reference-container {
   background-color: rgba(240, 240, 240, 0.884);
   width: 100%;
   padding-bottom: 50px;
@@ -95,6 +65,7 @@ body {
   font-size: 22px;
   text-decoration: none;
   margin: 20px;
+  margin-top: 100px;
   color: rgb(43, 43, 43);
   display: block;
   text-align: center;
@@ -105,6 +76,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
+  margin-bottom: 100px;
   padding: 0;
 }
 

@@ -37,7 +37,7 @@ body {
   font-size: 30px;
   text-decoration: none;
   margin: 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   display: block;
   text-align: center;
   max-width: 600px;
@@ -63,7 +63,7 @@ body {
 .form-label {
   font-size: 18px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   margin-bottom: 10px;
   text-align: center;
 }
@@ -71,7 +71,7 @@ body {
 .form-name {
   font-size: 20px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   text-align: center;
   padding: 10px;
 }
@@ -84,7 +84,7 @@ body {
 .form-email {
   font-size: 18px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   margin-bottom: 10px;
 }
 
@@ -96,7 +96,7 @@ body {
 .form-title {
   font-size: 18px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   margin-bottom: 10px;
 }
 
@@ -110,7 +110,7 @@ body {
 .form-text {
   font-size: 20px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   text-align: center;
   padding: 10px;
 }
@@ -125,7 +125,7 @@ body {
 }
 
 .form-button {
-  color: rgb(0, 0, 0);
+  color: rgb(43, 43, 43);
   border: none;
   text-decoration: none;
   display: block;

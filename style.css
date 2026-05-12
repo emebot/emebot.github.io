@@ -4,260 +4,154 @@ body {
     font-family: verdana;
     line-height: 1.4;
     background-image: url("background.jpg");
-}
-.header-container{
-  top: 0;
-  width: 100%;
-}
-.nav-container {
-    background-color: #292929;
-    padding: 10px;
-    display: block;
+    background-attachment: fixed;
+    color: #494949;
     text-align: center;
 }
 
-.nav-container ul{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  list-style-type:  none;
-}
-.nav-container li{
-  float: right;
-  padding: 10px;
-  color: white;
-}
-.nav-logo{
-  float: left;
-  text-align: center;
-  padding: 20px;
-  font-family:verdana;
-  font-size: 3.5vh;
-  color: white;
-}
-.nav-container a{
-  color: white;
-  text-decoration:  none;
-  padding: 2vh;
-  display: block;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.nav-item {
-    font-size: 2.5vh;
-}
-
-.nav-container a:hover {
-    background-color: #4A4A4A;
-}
-
-.about {
-}
-
 .welcome-container{
-    padding: 2vh;
-  padding-left: 5vh;
-    padding-right: 5vh;
-    padding-top: 4vh;
   display: block;
   text-align: center;
   margin: auto;
-  margin-top: 10vh;
-    margin-bottom: 10vh;
-  width: 30%;
-    border-radius: 20px;
-    background-color: white;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 78%;
+  padding: 1%;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.726);
 }
 
 .welcome{
-  font-size: 2.5vh;
+  font-size: 20px;
+  width: 100%;
+  height: fit-content;
   color: #494949;
-  margin: auto;
+  margin: 10px;
   margin-bottom: 30px;
+  
 }
 
 .about-content{
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-header {
+  font-size: 24px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.726);
 }
 
 .about-container{
-    background-color: white;
-  margin: 10%;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
   display: block;
   text-align: center;
-    border-radius: 20px;
 }
 
 .about-list{
-  text-align: center;
-  display: block;
-  overflow: hidden;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-    border-radius: 20px;
+  list-style-type:  none;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.726);
 }
 .languages{
-  float: left;
-  list-style-type: none;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
-  font-family:verdana;
-  margin-left: 10%;
-  width: 30%;
+    width: 500px;
 }
 .languages-header {
+  margin: 30px;
+  font-size: 22px;
   text-align: center;
-  font-family: verdana;
-  font-size: 3vh;
-  padding: 5vh;
-  color: #494949;
+  
 }
 
 .language-list{
-  border-radius: 10px;
-  padding-left: 10%;
-  width: 90%;
+  margin-bottom: 30px;
 }
 
 .language{
-  text-align: left;
-  font-family: verdana;
-  font-size: 2vh;
-  color: #494949;
-  border-radius: 10px;
-  margin: auto;
-  margin-bottom: 1vh;
-  width: min-content;
-
-
-}
-.tools{
-    float: right;
-    list-style-type: none;
-    overflow: hidden;
-    display: inline-block;
-    text-align: center;
-    font-family:verdana;
-    margin-right: 10%;
-    width: 30%;
-}
-.tools-header{
-    text-align: center;
-    font-family: verdana;
-    font-size: 3vh;
-    padding: 5vh;
-    color: #494949;
+  margin: 10px;
+  font-size: 18px;
 }
 
-.tool-list{
-    border-radius: 10px;
-    padding-left: 10%;
-    width: 90%;
-}
-
-.tool{
-    text-align: left;
-    font-family: verdana;
-    font-size: 2vh;
-    color: #494949;
-    border-radius: 10px;
-    margin: auto;
-    margin-bottom: 1vh;
-    width: min-content;
-
-}
-li{
-  font-family:verdana;
-  overflow: hidden;
-  list-style-type:  none;
-  font-size: 20px;
-}
 
 .projects-container{
-  display: block;
-  text-align: center;
-    border-radius: 20px;
-    width: 100%;
-    height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .projects-header-container{
-    display: block;
-    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .projects-header {
-    font-size: 3vh;
-    color: #494949;
-    padding: 3vh;
-    background-color: white;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 20px;
     text-align: center;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
 }
 
 .project{
-
-  margin: 10%;
-  display: block;
-  text-align: center;
-  width: 80%;
-  background-color: white;
-  margin-bottom: 10vh;
-  margin-top: 10vh;
-  height: 50vh;
-  border-radius: 20px;
-    padding-top: 6vh;
-    padding-left: 2vh;
+  width: fit-content;
+  max-width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.726);
+  margin-bottom: 20px;
 }
 
 .project-header{
-  float: left;
-  padding: 1vh;
-    padding-top: 3vh;
-  display: block;
-  text-align: center;
-  width: 40%;
-  margin-top: 10px;
+  width: fit-content;
+  max-width: 600px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .project-name-container{
   color: #494949;
   text-decoration:  none;
-  display: block;
   text-align: left;
   border-radius: 10px;
-  font-size: 3vh;
-  font-family:  verdana;
+  font-size: 26px;
+  margin-bottom: 50px;
 }
 
 .project-name{
-
-  color: inherit;
-  text-decoration: inherit;
-  display: block;
+  text-decoration: none;
   text-align: left;
-  border-radius: inherit;
-  font-size: inherit;
-    margin-bottom: 2vh;
-  font-family:  verdana;
   width: max-content;
-    padding: 1vh;
+  color: inherit;
+  padding: 10px;
 
 }
 
 .project-name:hover{
-  background-color: #EDEDED;
+  background-color: rgba(236, 236, 236, 0.726);
 }
 
 .project-description{
@@ -267,53 +161,47 @@ li{
   width: 100%;
   background-color: inherit;
   font-family: verdana;
-  font-size: 2vh;
-  float: left;
+  font-size: 20px;
   color: #494949;
-    padding-left: 1vh;
+  padding: 10px;
 }
 
 .project-video-container{
-  float: left;
-  display: block;
-  text-align: center;
-    margin-left: 5vh;
-    margin-top: 1vh;
-  width: 50%;
-    height: 100%;
+  float: right;
+  margin: 30px;
 
 }
 
 .project-video{
-    width: 80%;
-    height: 80%;
+  width: 500px;
+  height: 270px;
 }
 
 .contact-container {
-    padding: 2vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    padding-top: 4vh;
-    display: block;
-    text-align: center;
-    margin: auto;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    width: 30%;
-    border-radius: 20px;
-    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-inner {
+  width: fit-content;
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.726);
+  padding: 30px;
+  margin: 50px;
+  margin-top: 100px;
 }
 
 .contact-header {
-    font-size: 3vh;
+    font-size: 24px;
     color: #494949;
     margin: auto;
-    margin-bottom: 3vh;
 }
 
 .contact-text {
-    font-size: 2vh;
+    font-size: 20px;
     color: #494949;
     margin: auto;
-    margin-bottom: 5vh;
 }

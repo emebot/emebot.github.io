@@ -3,23 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav_style.css">
+  <link rel="stylesheet" href="footer_style.css">
 
   <title>Eemeli Kaski</title>
 
 </head>
 <body>
 
-<div class="header-container">
+<div class="content">
 
-  <nav class="nav-container">
-    <div class="nav-logo">Eemeli Kaski</div>
-    <ul>
-        <li class="nav-item"><a href="#contact">Contact Me</a></li>
+   <nav class="nav-container">
+    <ul class="nav-list">
+      <li class="nav-title"><a href="index.html">Eemeli Kaski</a></li>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#about">About Me</a></li>
         <li class="nav-item"><a href="#projects">Projects</a></li>
-        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#contanct">Contact</a></li>
+      </ul>
     </ul>
   </nav>
-</div>
+
 
 
 <section class="about" id="about">
@@ -31,8 +35,8 @@
   </div>
 
   <div class="about-container">
-    <h1 style="font-size: 3vh; color: #494949;">About Me</h1>
     <div class="about-content">
+      <h1 class="about-header">About Me</h1>
       <div class="about-list">
         <div class="languages">
           <div class="language-list">
@@ -49,18 +53,18 @@
           </div>
 
         </div>
-        <div class="tools">
-          <div class="tool-list">
-            <div class="tools-header">Familiar Tools</div>
-            <div class="tool">Git</div>
-            <div class="tool">Unity</div>
-            <div class="tool">VisualStudio</div>
-            <div class="tool">VSCode</div>
-            <div class="tool">Blender</div>
-            <div class="tool">Gimp</div>
-            <div class="tool">Photoshop</div>
-            <div class="tool">Webstorm</div>
-            <div class="tool">AndroidStudio</div>
+        <div class="languages">
+          <div class="language-list">
+            <div class="languages-header">Familiar languages</div>
+            <div class="language">Git</div>
+            <div class="language">Unity</div>
+            <div class="language">VisualStudio</div>
+            <div class="language">VSCode</div>
+            <div class="language">Blender</div>
+            <div class="language">Gimp</div>
+            <div class="language">Photoshop</div>
+            <div class="language">Webstorm</div>
+            <div class="language">AndroidStudio</div>
           </div>
         </div>
       </div>
@@ -120,8 +124,15 @@
 
 <section class="contact" id="contact">
     <div class="contact-container">
+      <div class="contact-inner">
         <h1 class="contact-header">Contact Me</h1>
         <h1 class="contact-text">eemeli.kaski@gmail.com</h1>
+      </div>
     </div>
+
+</section>
+
+</div>
+
 </body>
 </html>

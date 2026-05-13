@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-image: url("../images/test3.jpeg");
+  background-image: url("images/bg1.jpeg");
   margin: auto;
   width: 100%;
   margin-left: 0;
@@ -18,31 +18,17 @@ body {
   flex: 1 0 auto;
 }
 
-.main-container {
+.main-contaner {
   width: 100%;
-  height: fit-content;
-  background-color: rgba(240, 240, 240, 0.884);
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.title-container {
-  width: 100%;
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 .main-title {
   font-size: 30px;
   text-decoration: none;
-  margin: auto;
+  margin: 150px;
   color: rgb(241, 241, 241);
   display: block;
   text-align: center;
@@ -55,73 +41,63 @@ body {
   background: rgba(24, 41, 90, 0.637);
 }
 
+.content-container {
+  max-width: 100%;
+  height: fit-content;
+  font-family: verdana;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: center;
+}
+
+.reference-container {
+  background-color: rgba(240, 240, 240, 0.884);
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 .main-subtitle {
   font-size: 22px;
   text-decoration: none;
-  margin: 16px;
-  padding-top: 80px;
+  margin: 20px;
+  margin-top: 100px;
   color: rgb(43, 43, 43);
   display: block;
   text-align: center;
-  max-width: 600px;
+}
+
+.main-text-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 0;
 }
 
 .main-text {
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
-  margin: 30px;
+  margin: 10px;
   color: rgb(43, 43, 43);
   display: block;
   text-align: center;
-  max-width: 600px;
-}
-
-.image-container {
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image {
-  width: 300px;
-  height: auto;
-  display: block;
-}
-
-.image-title {
-  font-size: 30px;
-  text-decoration: none;
-  padding-top: 80px;
-  padding-bottom: 30px;
-  color: rgb(43, 43, 43);
-  display: block;
-  text-align: center;
-}
-
-.image-subtitle {
-  font-size: 24px;
-  text-decoration: none;
-  padding-top: 20px;
-  color: rgb(43, 43, 43);
-  display: block;
-  text-align: center;
-}
-
-.image-subtitle2 {
-  font-size: 18px;
-  text-decoration: none;
-  color: rgb(37, 37, 37);
-  display: block;
-  text-align: center;
+  width: 400px;
+  margin-top: 20px;
 }
 
 .main-button-container {
-  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
+  margin-bottom: 150px;
+  margin-top: 100px;
 }
 
 .main-button {
@@ -138,7 +114,6 @@ body {
   padding: 10px;
   background-color: rgb(255, 217, 0);
   border-radius: 10px;
-  margin-top: 40px;
   width: 150px;
   align-self: center;
   font-size: 20px;

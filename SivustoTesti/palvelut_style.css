@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-image: url("../images/test3.jpeg");
+  background-image: url("images/bg1.jpeg");
   margin: auto;
   width: 100%;
   margin-left: 0;
@@ -58,7 +58,7 @@ body {
 }
 
 .side-button {
-  margin: 20px;
+  margin: 10px;
   width: fit-content;
   min-width: 200px;
   font-family: verdana;

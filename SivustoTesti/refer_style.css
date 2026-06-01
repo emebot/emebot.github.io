@@ -53,19 +53,12 @@ body {
 }
 
 .reference-container {
-  background-color: rgba(240, 240, 240, 0.884);
   width: 100%;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  margin-bottom: 50px;
-  margin-top: 50px;
 }
 
 .main-subtitle {
   font-size: 22px;
   text-decoration: none;
-  margin: 20px;
-  margin-top: 100px;
   color: rgb(43, 43, 43);
   display: block;
   text-align: center;
@@ -73,11 +66,16 @@ body {
 
 .main-text-list {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   margin: 0;
-  margin-bottom: 100px;
-  padding: 0;
+  margin-bottom: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(240, 240, 240, 0.884);
 }
 
 .main-text {
@@ -87,7 +85,7 @@ body {
   color: rgb(43, 43, 43);
   display: block;
   text-align: center;
-  width: 400px;
+  width: 600px;
   margin-top: 20px;
 }
 

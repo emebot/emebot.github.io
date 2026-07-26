@@ -22,6 +22,11 @@
   display: flex;
 }
 
+.nav-logo-holder {
+  width: fit-content;
+  height: fit-content;
+}
+
 .nav-logo {
   float: left;
   text-align: center;
@@ -30,7 +35,7 @@
   font-size: 20px;
   color: rgb(43, 43, 43);
 }
-.nav-container a {
+.nav-item a {
   color: rgb(43, 43, 43);
   text-decoration: none;
   display: block;
@@ -40,14 +45,14 @@
 }
 
 .nav-item {
-    font-size: 17px;
+    font-size: 22px;
     font-family:verdana;
     padding: 10px;
     color: rgb(43, 43, 43);
 }
 
 .nav-container a:hover {
-    color: rgb(21, 0, 138);
+    color: rgb(60,110,113);
 }
 
 .main-logo {

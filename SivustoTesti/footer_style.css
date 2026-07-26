@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: white;
+  background-color: rgba(237, 242, 247, 0.8);
   padding: 10px;
   padding-bottom: 30px;
   flex-shrink: 0;
@@ -8,7 +8,6 @@
 
 .footer-list {
   display: inline;
-  background-color: white;
 }
 
 .footer-logo {
@@ -19,7 +18,6 @@
     text-align: center;
     padding: 3px;
     color: rgb(0, 0, 0);
-    background-color: white;
 }
 
 .footer-item {
@@ -31,7 +29,6 @@
     text-align: center;
     padding: 2px;
     color: rgb(0, 0, 0);
-    background-color: white;
 }
 
 

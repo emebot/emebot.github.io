@@ -1,0 +1,58 @@
+/*
+ * Focus styling for the quiz controls.
+ *
+ * Declared here rather than with Tailwind's focus-visible utilities so the
+ * indicator colour is stated once and stays readable next to the option
+ * markup, which already carries a long conditional class string.
+ */
+
+/* Wraps a visually hidden radio input. */
+.quiz-option:has(:focus-visible) {
+  outline: 2px solid #fcd34d;
+  outline-offset: 2px;
+}
+
+.quiz-focus:focus-visible {
+  outline: 2px solid #fcd34d;
+  outline-offset: 2px;
+}
+
+.quiz-question:focus-visible {
+  outline: 2px solid #fcd34d;
+  outline-offset: 4px;
+}
+
+/*
+ * Hero light dots. The three offsets keep the lights from pulsing in unison,
+ * the way real navigation lights never share a rhythm.
+ */
+@keyframes quiz-light-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+.quiz-light {
+  animation: quiz-light-pulse 3s ease-in-out infinite;
+}
+.quiz-light-0 {
+  animation-duration: 3s;
+}
+.quiz-light-1 {
+  animation-duration: 4.5s;
+  animation-delay: -1s;
+}
+.quiz-light-2 {
+  animation-duration: 2.2s;
+  animation-delay: -0.5s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-light {
+    animation: none;
+  }
+}
